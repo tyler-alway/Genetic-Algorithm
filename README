@@ -1,0 +1,29 @@
+Tyler Alway
+25 October 2016
+CS 441
+Lab 2
+
+To compile this program, you can use the makefile by typing make into the command line on ada while 
+in the correct directory. You can also compile by hand by typing javac GenAlg.java. 
+
+To run the program, type java GenAlg into the command line. 
+
+The outputs for this program will be of the form:
+
+Generaton Number: n
+Average fitness: x.x
+X: xxxxxxxxxx Y: xxxxxxxxxx Z: xxxxxxxxxx    fitness: x.x
+.
+.
+.
+
+
+The first line is the current generation number, the second line is this generation's average fitness.
+The next line shows the chromosomes for each of the individuals in the population. 
+These will be in the order X Y Z and at the end of this line is the individual's fitness. 
+
+This program will run until the average fitness of the population is 0. This means that the population has found a solution. 
+
+The current population size is 20 and the chance of a mutation occuring is 1 in 100 per child. 
+These can be changed on lines 16 and 17 respectivly. 
+
