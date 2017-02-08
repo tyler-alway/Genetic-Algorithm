@@ -1,7 +1,4 @@
 Tyler Alway
-25 October 2016
-CS 441
-Lab 2
 
 To compile this program, you can use the makefile by typing make into the command line on ada while 
 in the correct directory. You can also compile by hand by typing javac GenAlg.java. 
