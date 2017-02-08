@@ -1,9 +1,6 @@
 /*
  * Tyler Alway
- * 25 October 2016
- * CS 441
- * Lab 2
- */
+*/
 
 import java.util.ArrayList;
 import java.util.Collections;
